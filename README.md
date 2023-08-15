@@ -34,7 +34,7 @@ Access Token 항목에 밴드 계정 연동 을 클릭하면 해당 애플리케
 이후 동의하면 access token 이 생성됩니다.
 ![image](https://github.com/heetakchoi/bandopenapi/assets/3896162/8027facf-0a42-4271-a77f-205cb460b0cd)
 
-축하합니다. ZQ 로 시작하고 _xjqf 로 끝나는 당신의 모든 밴드에 접근 권한을 가진 access token 생성에 성공하였습니다.
+ZQ 로 시작하고 _xjqf 로 끝나는 당신의 모든 밴드에 접근 권한을 가진 access token 생성에 성공하였습니다.
 이제 info.txt.default 파일을 info.txt 로 변경한 후 info.txt 의 access_token 필드의 값을 방금 생성한 access token 값으로 대체하세요.
 ![image](https://github.com/heetakchoi/bandopenapi/assets/3896162/de5802f1-765e-4980-9937-e96eea7fc2bb)
 
@@ -42,3 +42,17 @@ Access Token 항목에 밴드 계정 연동 을 클릭하면 해당 애플리케
 ```
 perl 0.환경검사.pl
 ```
+축하합니다. 이제 다양한 예제 프로그램을 시도하여 보십시오.
+```
+perl 숫자.BAND_OPENAPI_기능.pl
+```
+
+# 오류 대응
+## perl 프로그램이 설치되지 않았습니다.
+대부분의 *nix 환경에서 Perl은 기본 설치되어 있습니다. Windows의 경우 딸기 펄(https://strawberryperl.com/) 을 설치하거나 윈도우즈 위에 리눅스 시스템을 설치할 수 있는 WSL 환경을 구축하세요. (https://learn.microsoft.com/ko-KR/windows/wsl/install)
+![image](https://github.com/heetakchoi/bandopenapi/assets/3896162/26bb4e4f-7c2c-4890-86a6-f2ba28835ab6)
+
+
+
+
+
