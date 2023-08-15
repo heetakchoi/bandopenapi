@@ -1,0 +1,5 @@
+# info.txt.default
+# 환경정보를 본인의 것으로 업데이트 한 후 파일명을 info.txt 로 변경하세요.
+
+access_token {access token으로 대체하세요. access token 획득 방법은 README.md를 참조하세요.}
+
