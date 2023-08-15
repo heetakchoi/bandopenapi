@@ -51,6 +51,9 @@ perl 숫자.BAND_OPENAPI_기능.pl
 ## perl 프로그램이 설치되지 않았습니다.
 대부분의 *nix 환경에서 Perl은 기본 설치되어 있습니다. Windows의 경우 딸기 펄(https://strawberryperl.com/) 을 설치하거나 윈도우즈 위에 리눅스 시스템을 설치할 수 있는 WSL 환경을 구축하세요. (https://learn.microsoft.com/ko-KR/windows/wsl/install)
 ![image](https://github.com/heetakchoi/bandopenapi/assets/3896162/26bb4e4f-7c2c-4890-86a6-f2ba28835ab6)
+## 짧은 간격의 호출은 거부됩니다.
+10초 정도 시간 간격을 유지하세요.
+![image](https://github.com/heetakchoi/bandopenapi/assets/3896162/b6e3206d-1941-4621-a4a6-3e1af1827251)
 
 
 
