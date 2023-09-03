@@ -12,10 +12,6 @@ my $prop = Prop->new("info.txt", " ");
 my ($access_token, $band_key) = $prop->gets("access_token", "band_key");
 my $locale = "ko_KR";
 
-printf "access_token: %s\n", $access_token;
-printf "band_key: %s\n", $band_key;
-printf "locale: %s\n", $locale;
-
 my $https = Https->new;
 $https->host("openapi.band.us")
     ->url("/v2/band/posts")

@@ -22,5 +22,12 @@ $https->host("openapi.band.us")
 my $result = $https->get();
 my $json = Json->new;
 $json->load_text($result);
+my $init_node = $json->parse;
+print "#"x80, "\n";
+foreach ( ("name", "profile_image_url", "user_key", "is_app_member", "message_allowed") ){
+    printf ".  % 20s: %s\n", $_, $init_node->get("result_data")->get($_)->value;
+}
+print "#"x80, "\n";
 print $json->pretty_json;
 print "\n";
+print "#"x80, "\n";

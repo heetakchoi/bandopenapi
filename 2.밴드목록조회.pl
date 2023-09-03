@@ -19,5 +19,16 @@ $https->host("openapi.band.us")
 my $result = $https->get();
 my $json = Json->new;
 $json->load_text($result);
+my $init_node = $json->parse;
+my @band_node_list = $init_node->get("result_data")->get("bands")->gets();
+print "#"x80, "\n";
+foreach my $band_node ( (@band_node_list) ){
+    foreach ( ("name", "cover", "member_count", "band_key") ){
+	printf ".  % 20s: %s\n", $_, $band_node->get($_)->value;
+    }
+    print "-"x80, "\n";
+}
+print "#"x80, "\n";
 print $json->pretty_json;
 print "\n";
+print "#"x80, "\n";
